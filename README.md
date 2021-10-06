@@ -1,1 +1,1 @@
-### `npm ejecutar eject`;
+### `npm start`;
