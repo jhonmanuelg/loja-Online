@@ -1,6 +1,6 @@
 import React from "react";
 import IMG from "../images/img01.jpg";
-import Portada from "../../components/images/inicio2.jpg";
+import Portada from "../images/inicio2.jpg";
 export const ProductoLista = () => {
   return (
     <>

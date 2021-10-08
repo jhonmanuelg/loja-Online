@@ -1,8 +1,10 @@
 // area dos elemento Hooks.
 
-import  {useState, useEffect, createContext } from "react";
-import Data from "./Data";
-export const DataConstext = createContext();
+import React, {useState, useEffect, createContext } from "react";
+import Data from "../../Data.js";
+
+
+export const DataContext = createContext();
 
 //creaçao da contas para creação dos contaxto dentro o projeto manejara as variable globales como on p´roductos para ser consumida.
 
@@ -12,9 +14,7 @@ export const DataProvider = (props) =>{
 
     useEffect(() =>{
         const producto = Data
-        setProductos(producto)
-
-        
+        setProductos(producto)        
     },[])
 
     const value = {
@@ -22,8 +22,10 @@ export const DataProvider = (props) =>{
     }
 
     return (
-        <DataConstext.Provider value = {value}>
-            {props.childre}
-        </DataConstext.Provider>
+        <DataContext.Provider value = {value}>
+            {props.children}
+        </DataContext.Provider>
     )    
 }
+
+export default DataContext;
