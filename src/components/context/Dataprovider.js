@@ -13,8 +13,8 @@ export const DataProvider = (props) =>{
 
    //item para erro y poda mostrar o conteudo
     useEffect(() =>{
-        const producto = Data.items
-        if(producto){
+        const productos = Data.items
+        if(productos){
             setProductos(productos)
         }else {
             setProductos([])
