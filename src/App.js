@@ -3,7 +3,8 @@ import { Header } from "./components/header/Header";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Paginas } from "./components/productos/Paginas";
 import { DataProvider } from "./components/context/Dataprovider";
-import { Carrito } from './components/carrito/Carrito';
+import { Carrito } from "./components/carrito/Carrito";
+// import { FooterContainer } from "./containers/footer";
 import "boxicons";
 
 
