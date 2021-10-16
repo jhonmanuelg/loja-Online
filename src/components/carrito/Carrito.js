@@ -45,7 +45,7 @@ export const Carrito = () => {
             carrito.forEach((item, index) => {
                 if (item.id === id) {
                     item.cantidad = 1;
-                    carrito.splice(index, 1)
+                    carrito.splice(index,1 )
                 }
             })
             setCarrito([...carrito])

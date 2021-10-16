@@ -5,6 +5,8 @@ import { DataContext } from "../context/Dataprovider"
 
 
 
+
+
 export const Header = () => {
   const value = useContext(DataContext)
   const [menu, setMenu] = value.menu
@@ -26,7 +28,7 @@ export const Header = () => {
       </Link>
 
 
-     
+
 
       <ul>
         <li>
@@ -39,7 +41,9 @@ export const Header = () => {
           <Link to="/guemsomos">QUEM SOMOS</Link>
         </li>
       </ul>
-      <div><button className="button">Formulario</button></div>
+
+      <Link to="/Form"><button className="btnstart">FORMULARIO</button></Link>
+      
 
       <div className="cart" variant="light" onClick={toogleMenu}>
 
@@ -49,7 +53,7 @@ export const Header = () => {
 
     </header>
 
-    
+
 
 
   )

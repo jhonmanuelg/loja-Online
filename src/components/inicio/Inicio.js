@@ -17,11 +17,14 @@ export const Inicio = () => {
         <h1>QUEM SOMOS</h1>
       </Link>
 
+      <Link to="/formulario">
+        <h1>Formulario</h1>
+      </Link>
       <div className="inicio3">
-      <img src={ Portada } alt="inicio" />
+        <img src={Portada} alt="inicio" />
       </div>
-      
-      
+
+
     </div>
 
   );
