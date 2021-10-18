@@ -2,8 +2,10 @@ import React, { useContext } from "react"
 import Nike from "../images/Nike.jpg";
 import { Link } from "react-router-dom";
 import { DataContext } from "../context/Dataprovider"
-
-
+import Cadastrar from "../form/Form";
+import QuemSomos from "../productos/QuemSomos"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Button, Modal, ModalHeader, ModalBody, ModalFooter, FormGroup, Input, Label} from 'reactstrap';
 
 
 
@@ -31,18 +33,19 @@ export const Header = () => {
 
 
       <ul>
-        <li>
-          <Link to="/">INICIO</Link>
+        <li className="principal secundario">
+          <Link to="/"><Button className="btnCadastro" outline color="primary" >INICIO</Button></Link>
+        </li>
+        <li  className="principal secundario">
+          <Link to="/productos"><Button  className="btnCadastro" outline color="primary" >PRODUCTOS</Button></Link>
+        </li>
+        <li  className="principal secundario">
+          <Link to="/guemsomos"><Button  className="btnCadastro" outline color="primary" >QUEM SOMOS</Button></Link>
         </li>
         <li>
-          <Link to="/productos">PRODUCTOS</Link>
-        </li>
-        <li>
-          <Link to="/guemsomos">QUEM SOMOS</Link>
+        <Cadastrar />
         </li>
       </ul>
-
-      <Link to="/Form"><button className="btnstart">FORMULARIO</button></Link>
       
 
       <div className="cart" variant="light" onClick={toogleMenu}>

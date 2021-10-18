@@ -1,88 +1,57 @@
-body {
-    box-sizing: content-box;
+.Form {
+    text-align: center;
   }
   
-  .formulario {
-    width: 100%;
-    height: 98vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+  .Form-logo {
+    height: 40vmin;
+    pointer-events: none;
   }
   
-  .caixaPrincipal {
-    margin: auto;
-    padding-top: 10%;
-    width: 450px;
-    height: 350px;
+  @media (prefers-reduced-motion: no-preference) {
+    .Form-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
   }
   
-  .caixaPrincipal > h1 {
-    margin: auto;
-    display: flex;
-    color: white;
-    font-size: 25px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 10%;
-    width: auto;
-  }
-  
-  .caixaSecundaria {
-    width: 350px;
-    height: 400px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    border: 10px outline beige;
-  }
-  
-  .cuadro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100px;
-    height: 100px;
-    border: 1px outset beige;
-    border-radius: 25px 25px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  }
-  
-  .caixaSoporte {
+  .Form-header {
+    background-color: #282c34;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 15px 15px 15px 15px;
-    text-transform: uppercase;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
   }
   
-  .btnform {
-    display: flex;
-    margin: auto;
-    margin-top: 15%;
-    padding: 10px;
-    border: none;
-    font-weight: 600;
-  
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    border-radius: 5px;
+  .Form-link {
+    color: #61dafb;
   }
   
-  .btnform:hover {
-    border: beige 2px outset;
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
   
-  input {
-    border-radius: 15px 15px;
-    border: none;
-    outline: none;
+  .principal{
+  align-items: center;
+  display: flex;
+  
+  /* height: 100vh; */
   }
   
+  .secundario{
+  margin: 0 auto;
+  overflow: hidden;
+  
+  }
+
+  .btnCadastro{
+    color:white;
+    font-weight: bold;
+    border:none;
+  }

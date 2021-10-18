@@ -5,21 +5,7 @@ import { Link } from "react-router-dom";
 export const Inicio = () => {
   return (
     <div className="inicio">
-      <Link to="/">
-        <h1> INICIO</h1>
-      </Link>
-
-      <Link to="/productos">
-        <h1> PRODUCTOS </h1>
-      </Link>
-
-      <Link to="/guemsomos">
-        <h1>QUEM SOMOS</h1>
-      </Link>
-
-      <Link to="/formulario">
-        <h1>Formulario</h1>
-      </Link>
+    
       <div className="inicio3">
         <img src={Portada} alt="inicio" />
       </div>

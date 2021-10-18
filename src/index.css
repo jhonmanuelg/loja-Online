@@ -46,10 +46,11 @@ ul{
   padding: 0;
 }
 li{
-  list-style: none;
+  list-style: none !important;
 }
 header ul li{
   padding: 0 1rem;
+  list-style: none;
 }
 
 a{
@@ -57,6 +58,7 @@ a{
   color: rgb(255, 255, 255);
   text-decoration: none;
   text-transform: uppercase;
+  
 }
 
 a:hover{

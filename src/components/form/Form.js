@@ -1,56 +1,58 @@
 import React from "react";
-import  "./styleform.css"
-import { Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Button, Modal, ModalHeader, ModalBody, ModalFooter, FormGroup, Input, Label} from 'reactstrap';
+import '../form/styleform.css'
 
 
-export const Form = () => {
 
-  
-    return (
-      <div className="formulario">
-        <form className="caixaPrincipal">
-          <h1>Ingrese seu produto</h1>
-          <fieldset className="caixaSecundaria">
-            <div className="cuadro"></div>
-            <label className="caixaSoporte">
-              image
-              <input
-                type="file"
-              />
-            </label>
+class Cadastrar extends React.Component{
+  state={
+    abierto: false,
+  }
 
-            <label className="caixaSoporte">
-              title
-              <input
-                type="text"
-              />
-            </label>
+  abrirModal=()=>{
+    this.setState({abierto: !this.state.abierto});
+  }
 
-            <label className="caixaSoporte">
-              categoria
-              <input
-                type="text"
-              />
-            </label>
+  render(){
 
-            <label className="caixaSoporte">
-              price
-              <input
-                type="number"
-               
-              />
-            </label>
+    const modalStyles={
+      position: "absolute",
+      top: '50%',
+      left: '50%',
+      transform: 'translate(-50%, -50%)'
+    }
+    return(
+      <>
+      <div className="principal">
+        <div className="secundario">
+      <Button className="btnCadastro" outline color="primary" onClick={this.abrirModal}>CADASTRAR</Button>
+      
+      </div></div>
 
-            <label className="caixaSoporte">
-              cantidad
-              <input
-                type="number"
-              />
-            </label>
-            <button className="btnform">INGRESE</button>
-          </fieldset>
-        </form>
-      </div>
-    );
-  
+      <Modal isOpen={this.state.abierto} style={modalStyles}>
+        <ModalHeader>
+          Iniciar Sesión
+        </ModalHeader>
+        <ModalBody>
+          <FormGroup>
+            <Label for="usuario">Usuario</Label>
+            <Input type="text" id="usuario"/> 
+          </FormGroup>
+          <FormGroup>
+            <Label for="password">Contraseña</Label>
+            <Input type="text" id="password"/> 
+          </FormGroup>
+        </ModalBody>
+
+        <ModalFooter>
+            <Button color="primary">Iniciar Sesión</Button>
+            <Button color="secondary" onClick={this.abrirModal}>Cerrar</Button>
+        </ModalFooter>
+      </Modal>
+      </>
+    )
+  }
 }
+
+export default Cadastrar;

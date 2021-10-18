@@ -4,7 +4,7 @@ import { Inicio } from "../inicio/Inicio";
 import { ProductoLista } from "./ProductoLista"
 import { QuemSomos } from './QuemSomos';
 import { ProductoDetalles } from '../productos/ProductoDetalles';
-import { Form } from '../form/Form';
+
 
 
 
@@ -16,9 +16,8 @@ export const Paginas = () => {
             <Route path="/productos" exact component={ProductoLista} />
             <Route path="/guemsomos" exact component={QuemSomos} />
             <Route path="/producto/:id" exact component={ProductoDetalles} />
-            <Route path="/form"  exact component={Form}/>
          </Switch>
-
+        
       </section>
    )
 };
