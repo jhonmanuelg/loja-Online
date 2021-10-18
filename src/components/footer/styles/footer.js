@@ -43,7 +43,7 @@ export const Link = styled.a`
   text-decoration: none;
 
   &:hover {
-      color: #10ff94e7;
+      color: rgb(0, 174, 255);
       transition: 200ms ease-in;
   }
 `;
