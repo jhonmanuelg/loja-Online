@@ -57,4 +57,5 @@ export const Title = styled.p`
 
 export const Flex = styled.a`
 text-align: center;
+color: white;
 `
