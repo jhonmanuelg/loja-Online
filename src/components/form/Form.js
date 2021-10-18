@@ -32,22 +32,23 @@ class Cadastrar extends React.Component{
 
       <Modal isOpen={this.state.abierto} style={modalStyles}>
         <ModalHeader>
-          Iniciar Sesión
+          Cadastro
         </ModalHeader>
         <ModalBody>
           <FormGroup>
-            <Label for="usuario">Usuario</Label>
-            <Input type="text" id="usuario"/> 
+            <Label for="title">nome</Label>
+            <Input type="text" id="title"/> 
           </FormGroup>
           <FormGroup>
-            <Label for="password">Contraseña</Label>
-            <Input type="text" id="password"/> 
+            <Label for="price">price</Label>
+            <Input type="text" id="price"/> 
           </FormGroup>
         </ModalBody>
 
         <ModalFooter>
-            <Button color="primary">Iniciar Sesión</Button>
-            <Button color="secondary" onClick={this.abrirModal}>Cerrar</Button>
+            <Button color="primary">Ingresar</Button>
+            <Button color="primary">Actualisar</Button>
+            <Button color="secondary" onClick={this.abrirModal}>cancelar</Button>
         </ModalFooter>
       </Modal>
       </>
