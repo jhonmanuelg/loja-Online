@@ -5,8 +5,8 @@ import React from "react";
 export const QuemSomos = () => {
   return (
     <div Container>
-      <section className=" row-cols-4 fa-4x  titel">
-        <h1>Quem somos</h1>
+      <section className=" row-cols-4 fa-4x  titel  title2">
+        <h1 cl>Quem somos</h1>
       </section>
     </div>
   );
