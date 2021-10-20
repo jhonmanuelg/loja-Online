@@ -1,13 +1,12 @@
 import React, { useContext } from "react";
-
 import Portada from "../images/inicio2.jpg";
 import { DataContext } from "../context/Dataprovider"
 import { ProductoItem } from "./ProductoItem";
 
 
-
-
 export const ProductoLista = () => {
+  
+
   const value = useContext(DataContext)
   const [productos] = value.productos
   console.log(productos)
@@ -25,7 +24,6 @@ export const ProductoLista = () => {
       <div className="productos">
         {productos.map(productos => (
           <ProductoItem
-            key={productos.id}
             id={productos.id}
             title={productos.title}
             price={productos.price}

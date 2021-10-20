@@ -1,7 +1,7 @@
 // area dos elemento Hooks.
 
 import React, {useState, useEffect, createContext } from "react";
-import Data from "../../Data.js";
+import Data from "../../Data"
 
 
 export const DataContext = createContext();

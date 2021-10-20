@@ -1,18 +1,15 @@
 import React, { useContext, } from "react";
-//import IMG from "../images/img01.jpg";
 import { Link } from "react-router-dom"
 import { DataContext } from "../context/Dataprovider"
 
 
 export const ProductoItem = ({
-  key,
   id,
+  image,
   title,
   price,
-  image,
   Category,
   
-
 }) => {
 
 

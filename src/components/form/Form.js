@@ -36,19 +36,37 @@ class Cadastrar extends React.Component{
         </ModalHeader>
         <ModalBody>
           <FormGroup>
+            <Label for="price">ID</Label>
+            <Input type="text" id="id"/>
+          </FormGroup>
+          <FormGroup>
+            <Label for="price">Img</Label>
+            <Input type="file" id="img"/> 
+          </FormGroup>
+          <FormGroup>
             <Label for="title">nome</Label>
-            <Input type="text" id="title"/> 
+            <Input type="text" name="" id="title"/> 
           </FormGroup>
           <FormGroup>
             <Label for="price">price</Label>
             <Input type="text" id="price"/> 
           </FormGroup>
+          <FormGroup>
+            <Label for="price">Category</Label>
+            <Input type="text" id="category"/> 
+          </FormGroup>
+
+          <FormGroup>
+            <Label for="price">cantidad</Label>
+            <Input type="text" id="cantidad"/> 
+          </FormGroup>
+
         </ModalBody>
 
         <ModalFooter>
-            <Button color="primary">Ingresar</Button>
-            <Button color="primary">Actualisar</Button>
-            <Button color="secondary" onClick={this.abrirModal}>cancelar</Button>
+            <Button color="primary">Ingressar</Button>
+            <Button color="primary">Atualizar</Button>
+            <Button color="secondary" onClick={this.abrirModal}>Sair</Button>
         </ModalFooter>
       </Modal>
       </>
