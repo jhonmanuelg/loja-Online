@@ -1,24 +1,13 @@
 import React from "react";
-
+// import Card from 'react-bootstrap/Card'
+//import { Card, Button } from "react-bootstrap";
 
 export const QuemSomos = () => {
   return (
-    <div>
-      
-      <section className="titel">
-
-        <h2>QUEM SOMOS</h2>
-        <div>
-          <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text eve
-          </p>
-        </div>
-          
+    <div Container>
+      <section className=" row-cols-4 fa-4x m-5 mb-5 titel">
+        <h1>Quem somos</h1>
       </section>
-
-      
     </div>
   );
 };
-
-

@@ -1,6 +1,6 @@
 import React from "react";
 import Portada from "../../components/images/inicio.jpg";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 export const Inicio = () => {
   return (

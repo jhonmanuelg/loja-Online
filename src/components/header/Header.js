@@ -3,9 +3,9 @@ import Nike from "../images/Nike.jpg";
 import { Link } from "react-router-dom";
 import { DataContext } from "../context/Dataprovider"
 import Cadastrar from "../form/Form";
-import QuemSomos from "../productos/QuemSomos"
+// import QuemSomos from "../productos/QuemSomos"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Button, Modal, ModalHeader, ModalBody, ModalFooter, FormGroup, Input, Label} from 'reactstrap';
+import {Button } from 'reactstrap';
 
 
 
@@ -28,7 +28,10 @@ export const Header = () => {
           <img src={Nike} alt="logo" width="150" />
         </div>
       </Link>
-
+        
+        <div className="icon-menu">
+        <box-icon name='menu' color='#eee7e7' ></box-icon>
+        </div>
 
 
 

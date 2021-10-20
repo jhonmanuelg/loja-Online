@@ -6,7 +6,7 @@ const Data = {
       title: "Dell AX3",
       price: 401,
       image: require('./components/images/img01.jpg'),
-      category: "nike",
+      category: "Notebook",
       img1: "https://stockx-360.imgix.net/Nike-LD-Waffle-Sacai-Black-Nylon/Images/Nike-LD-Waffle-Sacai-Black-Nylon/Lv2/img",
       
       cantidad: 1,
@@ -16,7 +16,7 @@ const Data = {
       title: "IBM",
       price: 304,
       image: require('./components/images/img02.png'),
-      category: "nike",
+      category: "Notebook",
       img1: "https://stockx-360.imgix.net/Nike-Dunk-Low-Off-White-Pine-Green/Images/Nike-Dunk-Low-Off-White-Pine-Green/Lv2/img",
       img2: ".jpg?auto=format,compress&q=90&updated_at=1606319825&w=1000",
       cantidad: 1
@@ -35,7 +35,7 @@ const Data = {
       title: "Alienware",
       price: 399,
       image: require('./components/images/img04.jpg'),
-      category: "nike",
+      category: "Notebook",
       img1: "https://stockx-360.imgix.net/Nike-LD-Waffle-Sacai-White-Nylon/Images/Nike-LD-Waffle-Sacai-White-Nylon/Lv2/img",
       cantidad: 1
     },
@@ -54,7 +54,7 @@ const Data = {
       title: "DELL A24",
       price: 285,
       image: require('./components/images/img06.jpg'),
-      category: "nike",
+      category: "Notebook Game",
       img1: "https://stockx-360.imgix.net/Nike-Dunk-Low-Off-White-University-Red/Images/Nike-Dunk-Low-Off-White-University-Red/Lv2/img",
       
       cantidad: 1
@@ -74,7 +74,7 @@ const Data = {
       title: "Samsung Gamer",
       price: 335,
       image: require('./components/images/img08.jpg'),
-      category: "nike",
+      category: "Notebook Game",
       img1: "https://stockx-360.imgix.net/Nike-Air-Force-1-Low-Clot-Blue-Silk/Images/Nike-Air-Force-1-Low-Clot-Blue-Silk/Lv2/img",
      
       cantidad: 1
@@ -84,7 +84,7 @@ const Data = {
       title: "DELL MVP7",
       price: 799,
       image: require('./components/images/img09.jpg'),
-      category: "nike",
+      category: "Notebook Game",
       img1: "https://stockx-360.imgix.net/Nike-Air-Max-90-OG-White-Particle-Grey-Volt/Images/Nike-Air-Max-90-OG-White-Particle-Grey-Volt/Lv2/img",
       
       cantidad: 1
@@ -94,7 +94,7 @@ const Data = {
       title: "Samsung Gamer",
       price: 501,
       image: require('./components/images/img10.jpg'),
-      category: "nike",
+      category: "Notebook Game",
       img1: "https://stockx-360.imgix.net/Nike-Dunk-High-Black-Varsity-Maize/Images/Nike-Dunk-High-Black-Varsity-Maize/Lv2/img",
      
       cantidad: 1
@@ -104,11 +104,12 @@ const Data = {
       title: "Samsung Gamer",
       price: 377,
       image: require('./components/images/img011.jpg'),
-      category: "nike",
+      category: "Notebook Game",
       img1: "https://stockx-360.imgix.net/Nike-Air-Rubber-Dunk-Off-White-UNC/Images/Nike-Air-Rubber-Dunk-Off-White-UNC/Lv2/img",
       
       cantidad: 1
     },
+    
   ],
 };
 

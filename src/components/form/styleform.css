@@ -51,7 +51,11 @@
   }
 
   .btnCadastro{
+    font-size: 15px;
     color:white;
     font-weight: bold;
     border:none;
+    padding: 1px;
+    
   }
+  

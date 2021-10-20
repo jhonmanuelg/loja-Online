@@ -15,7 +15,7 @@ export const ProductoLista = () => {
     <>
 
       <div className="inicio2">
-        <img src={Portada} width="1780" alt="inicio2" />
+        <img src={Portada} className="inicio3" alt="inicio2" />
       </div>
 
       
