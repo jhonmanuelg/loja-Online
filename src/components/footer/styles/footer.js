@@ -43,7 +43,7 @@ export const Link = styled.a`
   text-decoration: none;
 
   &:hover {
-      color: #10ff94e7;
+      color: rgb(0, 174, 255);
       transition: 200ms ease-in;
   }
 `;
@@ -57,4 +57,5 @@ export const Title = styled.p`
 
 export const Flex = styled.a`
 text-align: center;
+color: white;
 `

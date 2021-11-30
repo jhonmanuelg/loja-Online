@@ -37,10 +37,10 @@ export function FooterContainer() {
                 </Footer.Column>
                 <Footer.Column>
                 <Footer.Title>SIGA-NOS</Footer.Title>
-                    <Footer.Link href="#"><Icon className="fab fa-facebook-f" />Facebook</Footer.Link>
-                    <Footer.Link href="#"><Icon className="fab fa-instagram" />Instagram</Footer.Link>
-                    <Footer.Link href="#"><Icon className="fab fa-youtube" />Youtube</Footer.Link>
-                    <Footer.Link href="#"><Icon className="fab fa-twitter" />Twitter</Footer.Link>
+                    <Footer.Link href="https://es-la.facebook.com/" target="_blank" ><Icon className="fab fa-facebook-f" />Facebook</Footer.Link>
+                    <Footer.Link href="https://www.instagram.com/?hl=es#" target="_blank" ><Icon className="fab fa-instagram" />Instagram</Footer.Link>
+                    <Footer.Link href="https://www.youtube.com/" target="_blank" ><Icon className="fab fa-youtube" />Youtube</Footer.Link>
+                    <Footer.Link href="https://twitter.com/?lang=es" target="_blank" ><Icon className="fab fa-twitter" />Twitter</Footer.Link>
                 </Footer.Column>
             </Footer.Row>
             </Footer.Wrapper>

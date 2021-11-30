@@ -4,9 +4,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { Paginas } from "./components/productos/Paginas";
 import { DataProvider } from "./components/context/Dataprovider";
 import { Carrito } from "./components/carrito/Carrito";
-// import { FooterContainer } from "./containers/footer";
+import { FooterContainer } from "./containers/footer";
 import "boxicons";
-
 
 function App() {
   return (
@@ -17,6 +16,7 @@ function App() {
           <Carrito />
           <Paginas />
         </Router>
+        <FooterContainer />
       </div>
     </DataProvider>
   );

@@ -1,7 +1,7 @@
 // area dos elemento Hooks.
 
 import React, {useState, useEffect, createContext } from "react";
-import Data from "../../Data.js";
+import Data from "../../Data"
 
 
 export const DataContext = createContext();
@@ -30,7 +30,7 @@ export const DataProvider = (props) =>{
 
     const addCarrito = (id) =>{
         const addCarrito = carrito.every(item => {
-            return item.id  == id;
+            return item.id  !== id;
         })
         if(addCarrito){
             const data = productos.filter(producto => {
